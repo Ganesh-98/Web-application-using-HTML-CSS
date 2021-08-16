@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: scroll;
+    margin: 0;
+
+}
+
+.gm {
+    background-image: url("top2.jpg");
+    background-position: auto auto;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-position: left;
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    color: rgb(55, 0, 255);
+    text-transform: capitalize;
+    font-size: 2em;
+    font-size: 35px;
+
+}
+
+/* navigation bar*/
+ul {
+
+    padding: 15px;
+    margin-top: 1px;
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+
+}
+
+li a {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+    color: rgb(248, 249, 252);
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.jp {
+
+    padding: 50px;
+    text-transform: capitalize;
+    border-collapse: none;
+
+}
+
+h2 {
+    color: rgb(122, 32, 32);
+    text-shadow: 3px 3px 5px rgb(8, 247, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+
+}
+
+.ab {
+    border-bottom: 2px 3px solid red;
+}
+
+
+button {
+    /*  background-color: rgb(0, 17, 255);
+    font-display: center;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+*/
+    background-color: #3ebd42;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button {
+    background-color: #052c66;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+div.gallery {
+    margin: 10px;
+    outline-offset: 20px;
+    border: 2px solid rgb(9, 255, 0);
+    float: left;
+    width: 200px;
+    box-shadow: 0px 0px 20px currentcolor;
+
+
+}
+
+div.gallery:hover {
+    border: 2px solid rgb(255, 0, 0);
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+}
+
+div.decs {
+    padding: 20px;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffff;
+    text-shadow: 4px 4px 2px rgb(58, 0, 82);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+div.gp {
+    background-color: grey;
+}
+
+div.ks {
+    background-color: teal;
+}
+
+div.ga {
+    background-color: rgb(128, 127, 127);
+}
+
+div.kn {
+    background-color: teal;
+
+    width: 100%;
+    height: auto;
+}
+
+div.hp {
+    background-color: rgb(156, 119, 119);
+
+}
+
+div.dl {
+    background-color: rgba(0, 0, 255, 0.616);
+}
+
+#borderimg {
+    border: 30px solid transparent;
+    padding: 15px;
+
+}
+
+div.kd {
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    float: right;
+}
+
+div.kd img {
+    padding: 10px;
+    margin-top: 30px;
+    border: 3px solid blue;
+}
+
+/*container */
+.grid-container {
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    outline-offset: 20px;
+}
+.tp{
+    color: rgb(11, 4, 107);
+}
